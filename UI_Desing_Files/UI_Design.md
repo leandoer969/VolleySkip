@@ -1,0 +1,90 @@
+## 🎮 VolleySkip+ UI Design
+
+---
+
+### ✅ MAX VIEW (Panel Maximized)
+
+```
+╔════════════════════════════════════════════════════════════╗
+║ VolleySkip+ 🎛️                           [ ℹ️ ] [ — ]       ║
+║                                                            ║
+║ {⏱️ 08:14}    {[⏪] [⏯️] [⏩]}     {🚀 [1.00x ▼]}     [🔁] (🟢)       ║
+║                                                            ║
+║ ── When Loop is ON ───────────────────────────────────── ║
+║ ╭──── 🎯 Loop Settings ─────────────╮                    ║
+║ │ 🅰️ 00:12 [-][+]   [13s]   [-][+] 00:25 🅱️ │                    ║
+║ ╰──────────────────────────────────╯                    ║
+╚════════════════════════════════════════════════════════════╝
+```
+
+**Notes:**
+- `[ ℹ️ ]` shows help/info popup on hover
+- `[ — ]` minimizes the panel (toggles to MIN VIEW)
+- `⏱️ 08:14` = current playback position
+- `[🔁]` = toggles loop mode; green (🟢) when active
+- Loop controls appear **only if loop is active**
+- Loop settings line always stays on **one single line**
+- Loop duration always uses **2-digit format**, e.g., `03s`, `13s`
+- Panel should have generous padding for spacing & clarity
+
+---
+
+### ✅ MIN VIEW (Panel Minimized)
+
+```
+╔════════════════════════════════════════════╗
+║ VolleySkip+ 🎛️        [ ℹ️ ] [ — ]         ║
+╠════════════════════════════════════════════╣
+║ ⏱️ 08:14 • 🚀 1.00x • [🔁]                  ║
+╚════════════════════════════════════════════╝
+```
+
+**Notes:**
+- Triggered by clicking `[ — ]`
+- Only shows essential live info:
+  - Current time
+  - Playback speed
+  - Loop toggle
+- Loop icon is still **green** or styled as active when loop is on
+- Minimized window takes up less vertical space but stays full-width
+
+---
+
+### ℹ️ INFO / HELP POPUP (Shown on Hover)
+
+```
+╭────────────────────────────────────────────╮
+│ ℹ️  VolleySkip+ Guide                       │
+│                                            │
+│ • ⏪ / ⏩ – Skip 5s                          │
+│ • ⏯️ – Play/Pause                          │
+│ • 🚀 – Change playback speed               │
+│ • 🔁 – Toggle Loop Mode                    │
+│     → When active, set loop                │
+│        A and B using [-][+] buttons        │
+│ • Loop duration shows as [XXs] in middle   │
+│ • 🅰️ and 🅱️ mark loop start and end         │
+│ • [ — ] minimizes / maximizes this panel   │
+│                                            │
+│ 🔤 HOTKEYS                                 │
+│                                            │
+│ • ← / → : Skip 5s                          │
+│ • ↑ / ↓ : Change speed                     │
+│ • Spacebar : Play/Pause                    │
+│ • S : Toggle Loop Mode                     │
+│ • A : Set Loop Start (🅰️)                  │
+│ • B : Set Loop End   (🅱️)                  │
+│ • Q / W : Adjust Start [-][+]              │
+│ • O / P : Adjust End   [-][+]              │
+│ • Z : Jump to Loop Start (🅰️)              │
+│ • R : Replay Current Loop                  │
+╰────────────────────────────────────────────╯
+```
+
+**Notes:**
+- Appears when user hovers `[ ℹ️ ]`
+- Anchored to top right, near the info icon
+- Disappears on mouse leave or tap outside
+- Styled with light background, padding, and subtle shadow
+- Use monospace font for timestamps if possible
+
