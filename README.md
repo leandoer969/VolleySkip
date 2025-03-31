@@ -2,6 +2,8 @@
 
 Version = 1.0.0
 
+Browser = **Chrome**
+
 **VolleySkip+** is a lightweight bookmarklet that overlays a draggable control panel on webpages with video elements. It provides enhanced video controls such as skip (backward/forward), play/pause, playback speed adjustment, and loop mode functionality.
 
 ## Features
@@ -36,8 +38,6 @@ Version = 1.0.0
 
 2. **Create a New Bookmark:**
    - **Chrome:** Right-click the bookmarks bar and select “Add page…”.
-   - **Firefox:** Right-click the bookmarks toolbar and choose “New Bookmark…”.
-   - **Safari:** Open the bookmarks sidebar and click “Add Bookmark”.
 
 3. **Paste the Code:**  
    Paste the one‑line code into the URL or Location field of the bookmark.
