@@ -78,7 +78,7 @@ We're exploring ways to detect player state changes and automatically clean up o
 
 **MIT License**
 
-Copyright (c) [2025] [Leandoer969]
+Copyright (c) [2025] [leandoer969]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the “Software”), to deal
