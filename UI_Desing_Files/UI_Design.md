@@ -29,26 +29,6 @@
 
 ---
 
-### ✅ MIN VIEW (Panel Minimized)
-
-```
-╔════════════════════════════════════════════╗
-║ VolleySkip+ 🎛️        [ ℹ️ ] [ — ]         ║
-╠════════════════════════════════════════════╣
-║ ⏱️ 08:14 • 🚀 1.00x • [🔁]                  ║
-╚════════════════════════════════════════════╝
-```
-
-**Notes:**
-- Triggered by clicking `[ — ]`
-- Only shows essential live info:
-  - Current time
-  - Playback speed
-  - Loop toggle
-- Loop icon is still **green** or styled as active when loop is on
-- Minimized window takes up less vertical space but stays full-width
-
----
 
 ### ℹ️ INFO / HELP POPUP (Shown on Hover)
 
